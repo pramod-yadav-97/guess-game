@@ -15,15 +15,15 @@ num1=int(input("Enter First Number:"))
 num2=int(input("Enter Second Number:"))
 choice=input("Choice:")
 
-if(choice=="a"):
+if(choice=="Add"):
     print(num1+num2)
 
-if(choice=="s"):
+if(choice=="Sub"):
     print(num1-num2)
 
-if(choice=="m"):
+if(choice=="Mul"):
     print(num1*num2)
 
-if(choice=="d"):
+if(choice=="Div"):
     print(num1/num2)
 
