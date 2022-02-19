@@ -12,12 +12,14 @@ print("      Hi "+ socket.gethostname())
 print("*** Let's Start Playing ***")
 print()
 
-print("Rules : You have to input a number till you find the correct number")
+print("Rules : You have to input a number till you find the correct number ( 1-100 )")
 print()
 print("          All the Best !!                                                    Best Score : 3 guess")
 print()
 while 1:
     guess=int(input("Take a Guess => "))
+    
+    
     count=count+1
 
     if guess==target:
@@ -48,6 +50,7 @@ while 1:
     else:
         print("                       Hint : Guess Lower Number")
 
+print()
 print("Thank You for Playing with me ! Hope to see you Again")
 
 
