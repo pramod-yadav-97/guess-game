@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 num1=$1
 num2=$2
