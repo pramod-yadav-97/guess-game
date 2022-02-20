@@ -1,5 +1,6 @@
 import socket
 import sys
-url = sys.stdin.readline()
-IP_addres = socket.gethostbyname(url)
+
+hname = socket.gethostname()
+IP_addres = socket.gethostbyname(hname)
 print("IP Address is:" + IP_addres)
